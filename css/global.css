@@ -1,0 +1,60 @@
+.btn-primary {
+    background-color: #f4a914;
+    border-color: #e4a713;
+}
+
+.btn-primary:hover {
+    background-color: #e4a713;
+    border-color: #c57a14;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #c57a14;
+    border-color: #c57a14;
+}
+
+.jumbotron {
+    padding-top: 14.75rem;
+    padding-bottom: 11rem;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.jumbotron p {
+    margin-bottom: 0;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px #000;
+}
+
+.social-links {
+    font-size: 1.4rem;
+}
+
+.social-links .social-link {
+    display: inline-block;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.social-links .social-link {
+    transition: color 200ms;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.social-links .social-link:focus,
+.social-links .social-link:hover {
+    color: #f5af37;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding-top: 16.75rem;
+        padding-bottom: 13rem;
+    }
+}

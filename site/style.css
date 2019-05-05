@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.caixa_maior {
+    width: 100%
+    
+}
+.caixa_topo{
+    padding: 80px;
+    text-align: center;
+    border-color: black;
+}
+
+.caixa_médio {
+    padding: 80px;
+     font-size: 20px;
+    text-align: center;
+}
+
+.caixa_baixo {
+    padding: 80px;
+}
+
+
+.caixa_baixo div a {
+    padding: 10px;
+    border-radius: 5px;
+}
+div.form{
+	display:table cell;
+	float: center;s
+	color:ffffff;
+	border:solid #191970;
+	text-transform:uppercase;
+	font-size:16px;
+	
+}

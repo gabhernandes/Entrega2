@@ -1,0 +1,14 @@
+.home .jumbotron {
+    background-image: url('../img/bg-eventos.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .home .jumbotron {
+        background-position: bottom;
+    }
+}
+
+canvas {border:1px solid #ccc;}

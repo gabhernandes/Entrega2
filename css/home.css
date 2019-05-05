@@ -1,0 +1,131 @@
+.home .jumbotron {
+    background-image: url('../img/bg-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .cards {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.home .cards::before,
+.home .cards::after {
+    display: inline-block;
+    content: '';
+    padding-left: 11.25px;
+}
+
+.home .cards::-webkit-scrollbar {
+    display: none;
+}
+
+.home .wrapper-card {
+    display: inline-block;
+    min-width: 149.2px;
+    max-width: 149.2px;
+    min-height: 188.14px;
+    max-height: 188.14px;
+    padding-left: 3.75px;
+    padding-right: 3.75px;
+}
+
+.home .card {
+    width: 100%;
+    height: 100%;
+}
+
+.home .card-title {
+    font-size: 1.3rem;
+}
+
+.home .card-img-overlay .card-title {
+    padding-top: 104%;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.home .card-show .card-img-overlay {
+    background-image: url('../img/bg-card-show.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .card-concerto .card-img-overlay {
+    background-image: url('../img/bg-card-concerto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .card-teatro .card-img-overlay {
+    background-image: url('../img/bg-card-teatro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .card-stand-up .card-img-overlay {
+    background-image: url('../img/bg-card-stand-up.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .depoimento h3 {
+    font-size: 1.55rem;
+}
+
+.home .acomodacoes .card img {
+    height: 100px;
+}
+
+.icone {
+    display: block;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+@media (min-width: 576px) {
+    .home .wrapper-card {
+        min-width: 184.3px;
+        max-width: 184.3px;
+        min-height: 232.40px;
+        max-height: 232.40px;
+    }
+    .home .acomodacoes .card img {
+        height: 140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .home .jumbotron {
+        background-position: bottom;
+    }
+    .home .cards {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 992px) {
+    .home .wrapper-card {
+        min-width: 192.67px;
+        max-width: 192.67px;
+        min-height: 242.95px;
+        max-height: 242.95px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home .cards {
+        justify-content: center;
+    }
+    .home .wrapper-card {
+        margin-left: .75rem;
+        margin-right: .75rem;
+    }
+}
